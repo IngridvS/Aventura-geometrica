@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="Css/Style-Calcular.css">
+</head>
+<body>
+    <header>
+        <h1>Polígono Regular</h1>
+    </header>
+    <main>
+        <p>Um polígono regular é uma figura com lados e ângulos congruentes. Escolha o número de lados do polígono e insira o comprimento do lado:</p>
+        <img src="img/Polígono Regular.webp" alt="Polígono Regular com N Lados">
+        <form id="calc-form">
+            <div>
+                <label for="numLados">Número de Lados:</label>
+                <select id="numLados">
+                    <option value="3">Triângulo (3 lados)</option>
+                    <option value="4">Quadrado (4 lados)</option>
+                    <option value="5">Pentágono (5 lados)</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+            </div>
+
+            <div>
+                <label for="comprimentoLado">Comprimento do Lado:</label>
+                <input type="number" id="comprimentoLado" required>
+            </div>
+
+            <div>
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+
+            <div>
+                <label for="resultado">Área do Polígono Regular:</label>
+                <span id="resultado">Exemplo</span>
+            </div>
+        </form>
+    </main>
+    <script src="JavaScript/Polígono Regular com N Lados.js"></script>
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+</body>
+</html>

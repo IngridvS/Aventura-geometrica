@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="Css/Style-Calcular.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular o Retangulo</h1>
+    </header>
+    
+    <main>
+        <p>Um retângulo é uma figura geométrica com quatro lados, onde os lados opostos são iguais e os ângulos internos são retos. A fórmula para calcular a área do retângulo é:</p>
+        <img src="img/figura-geometrica-retangulo.png" alt="Retângulo"  width="400px">
+        <p>Fórmula para calcular a área = <code>Comprimento (L) * Largura (W)</code></p>
+
+        <form id="calc-form">
+            <div>
+                <label for="comprimento">Comprimento (L):</label>
+                <input type="number" id="comprimento" required>
+            </div>
+
+            <div>
+                <label for="largura">Largura (W):</label>
+                <input type="number" id="largura" required>
+            </div>
+
+            <div>
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+
+            <div>
+                <label for="resultado">Área do Retângulo:</label>
+                <span id="resultado">Exemplo</span>
+            </div>
+        </form>
+    </main>
+
+    <script src="JavaScript/Retângulo.js"></script>
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+</body>
+</html>

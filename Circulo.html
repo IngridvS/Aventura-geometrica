@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="Css/Style-Calcular.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular o Circulo</h1>
+    </header>
+    
+    <main>
+        <p>O círculo é uma figura geométrica com todos os pontos igualmente distantes de seu centro. A fórmula para calcular a área do círculo é:</p>
+        <img src="img/circulo.png" alt="Círculo">
+        <p>Fórmula para calcular a área = <code>&pi; * r²</code></p>
+    
+        <form id="calc-form">
+            <div>
+                <label for="raio">Raio (r):</label>
+                <input type="number" id="raio" required>
+            </div>
+    
+            <div>
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+    
+            <div>
+                <label for="resultado">Área do Círculo:</label>
+                <span id="resultado">Exemplo</span>
+            </div>
+        </form>
+    </main>
+    
+    
+    <script src="JavaScript/Circulo.js"></script>
+    
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="Css/Style-Calcular.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular o Quadrado</h1>
+    </header>
+
+    <main>
+        <p>O quadrado é uma figura geométrica com todos os lados de igual comprimento. A fórmula para calcular a área do quadrado é:</p>
+        <img src="img/quadrado.png" alt="Quadrado" width="250px"> 
+        
+        <p>Fórmula para calcular a área = <code>Lado * Lado</code></p>
+    
+        <form id="calc-form">
+            <div>
+                <label for="lado">Lado do Quadrado:</label>
+                <input type="number" id="lado" required>
+            </div>
+    
+            <div>
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+    
+            <div>
+                <label for="resultado">Área do Quadrado:</label>
+                <span id="resultado">Exemplo</span>
+            </div>
+        </form>
+    </main>
+    
+    <script src="JavaScript/Quadrado.js"></script>
+    
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+</body>
+</html>
